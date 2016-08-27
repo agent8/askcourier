@@ -1,10 +1,177 @@
-<!DOCTYPE html5>
-<html>
-  <head>
-    <title>Ask Courier</title>
-  </head>
-  <body>
-    <p>It works!</p>
-  </body>
-</html>
+<!doctype html>
+<html class="no-js rad" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>FAQ</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="https://assets.easilydo.com/css/rad.css" />
+		<link rel="stylesheet" href="https://assets.easilydo.com/css/vendor.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato|Libre+Baskerville">
+		<link href='https://fonts.googleapis.com/css?family=Oleo+Script:400,700' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<style>
+			#faq .light-grey-background{
+				background-color: #f9f9f9;
+			}
+			.hero{
+				background-image: url();
+				position: relative;
+				overflow: hidden;
+				padding-top:100px;
+				padding-bottom: 300px;
+			}
+			.courier-fox{
+				position:absolute;
+				bottom: -40px;
+				width: 300px;
+				left: 50%;
+				margin-left: -150px;
+				z-index: 2
+			}
+			.bubble 
+			{
+			position: relative;
+			width: 300px;
+			height: auto;
+			padding-top: 40px;
+			padding-bottom: 40px;
+			padding-left: 20px;
+			padding-right: 20px;
+			background: #2998ff;
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			border-radius: 8px;
+			color:#fff;
+			}
 
+			.bubble:after 
+			{
+			content: '';
+			position: absolute;
+			border-style: solid;
+			border-width: 15px 22px 0;
+			border-color: #2998ff transparent;
+			display: block;
+			width: 0;
+			z-index: 1;
+			bottom: -15px;
+			left: 198px;
+			}
+
+			h1.fancy {
+			  font-family: 'Oleo Script', cursive;
+			  font-weight: bold;
+			  color: #e0eff2;
+			  text-shadow: -2px 2px 0 #3a50d9, -2px 2px 0 #0a0e27;
+			  font-size: 200px;
+			  text-transform: lowercase;
+			  line-height: 0;
+			  margin-bottom: 90px;
+			 }
+			 .messenger-color{
+			 	color:#2998ff;
+			 }
+			 .messenger-background{
+			 	background-color:#2998ff;
+			 }
+			 .secondary-background{
+			 	background-color:indigo;
+			 }
+			 .max-width-container{
+			 	max-width: 900px;
+			 }
+			 .mini-courier{
+			 	position: absolute;
+			    bottom: -50px;
+			    right: 20px;
+			    width: 200px;
+			 }
+			 .primary-background{
+			 	background-color: #2998ff;
+			 }
+			 .primary-color{
+			 	color: #2998ff;
+			 }
+			 #navigation-scrolled{
+			 	display: none !important;
+			 }
+			 .centered-container{
+			 	margin:auto; 
+			 }
+			 @media only screen and (max-width: 800px) {
+			    h1.fancy {
+			      font-size:100px;
+			      margin-bottom:50px;
+			    }
+			    .mini-courier{
+			    	display: none;
+			    }
+			    .centered-container{
+			    	margin:auto; 
+			    	margin-left:auto;
+			    	text-align: center;
+			    	margin-bottom: 100px;
+			    }
+			}
+		</style>
+	</head>
+	<body class="light-grey-background">
+		<div class="hero primary-background extra-large-padding centered-text background-image" style="background-image:url(assets/img/courier-background.jpg);">
+			<h1 class="white fancy">Courier</h1>
+			<h3 class="white">"A friendlier way to track your packages"</h3>
+			<div class="large-padding">
+				<div class="button white auto-width" style="border:solid white 2px; max-width:200px;">Get Started</div>
+			</div>
+			<img class="courier-fox" src="assets/img/courier.png" />
+		</div>
+		<div class="large-padding">
+			<div class="max-width-container shadow-light">
+				<div class="secondary-background small-padding" style="position:relative; overflow:hidden;">
+					<div class="flex">
+						<div class="small-12 medium-6 centered">
+							<img class="three-quarter-width" src="assets/img/packages.png" />
+						</div>
+						<div class="small-12 medium-6 flex small-centered-text">
+							<div class="centered-container">
+								<h4 class="white no-margin">Want to know where your shipments are?</h4>
+								<h1 class="thin no-margin white" style="text-transform: capitalize;">Ask Courier</h1>
+								<div class="button auto-width primary-background white large-margin-bottom"><b>Say Hi</b></div>
+							</div>
+						</div>
+					</div>
+					<img class="mini-courier" src="assets/img/courier.png" />
+				</div>
+				<div class="white-background" style="padding-top:100px; padding-bottom:100px;">
+					<div class="flex">
+						<div class="small-12 medium-6 flex small-centered-text">
+							<div class="centered-container">
+								<h4 class="no-margin">What packages are arriving tomorrow?</h4>
+								<h1 class="thin no-margin" style="text-transform: capitalize;">Ask Courier</h1>
+								<div class="button auto-width primary-background white large-margin-bottom">Say Hi</div>
+							</div>
+						</div>
+						<div class="small-12 medium-6 centered">
+							<img class="full-width" src="assets/img/screen.png" />
+						</div>
+					</div>
+				</div>
+				<div class="messenger-background" style="padding-top:100px; padding-bottom:100px;">
+					<div class="max-width-container centered" style="max-width:800px;">
+						<img class="icon-200" src="assets/img/courier-icon.png" />
+						<h1 class="white no-margin" style="text-transform:capitalize !important;">Hello Courier</h1>
+						<p class="white">Now Available on Facebook Messenger</p>
+						<div class="large-padding">
+							<div class="button white auto-width" style="border:solid white 2px; max-width:200px;">Get Started</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="white-background small-padding centered"><p class="grey subheading">courier is a bad ass <a href="http://easilydomail.com">EasilyDo</a> Experiment</p></div>
+		<script src="https://assets.easilydo.com/js/rad.js"></script>
+		<script src="https://assets.easilydo.com/js/svg-injector.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
