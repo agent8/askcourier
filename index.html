@@ -100,7 +100,15 @@
 			 .centered-container{
 			 	margin:auto; 
 			 }
+			 li{
+				color:#fff;
+				line-height:40px;
+				
+			}
 			 @media only screen and (max-width: 800px) {
+				video{
+					display:none;
+				}
 			    h1.fancy {
 			      font-size:100px;
 			      margin-bottom:50px;
@@ -120,36 +128,30 @@
 	<body class="light-grey-background">
 		<div class="hero primary-background extra-large-padding centered-text background-image" style="background-image:url(assets/img/courier-background.jpg);">
 			<h1 class="white fancy">Courier</h1>
-			<h3 class="white">"A friendlier way to track your packages"</h3>
+			<h3 class="white">"A nimble messenger who tracks your deliveries for you."</h3>
 			<div class="large-padding">
-				<div class="button white auto-width" style="border:solid white 2px; max-width:200px;">Get Started</div>
+				<div class="fb-messengermessageus" 
+                  messenger_app_id="1729263877318547" 
+                  page_id="AskCourierBot"
+                  color="white"
+                  size="standard" >
+                </div>    
 			</div>
 			<img class="courier-fox" src="assets/img/courier.png" />
 		</div>
 		<div class="large-padding">
 			<div class="max-width-container shadow-light">
-				<div class="secondary-background small-padding" style="position:relative; overflow:hidden;">
-					<div class="flex">
-						<div class="small-12 medium-6 centered">
-							<img class="three-quarter-width" src="assets/img/packages.png" />
-						</div>
-						<div class="small-12 medium-6 flex small-centered-text">
-							<div class="centered-container">
-								<h4 class="white no-margin">Want to know where your shipments are?</h4>
-								<h1 class="thin no-margin white" style="text-transform: capitalize;">Ask Courier</h1>
-								<div class="button auto-width primary-background white large-margin-bottom"><b>Say Hi</b></div>
-							</div>
-						</div>
-					</div>
-					<img class="mini-courier" src="assets/img/courier.png" />
-				</div>
-				<div class="white-background" style="padding-top:100px; padding-bottom:100px;">
+            	<video loop muted autoplay style="width: 100%;">
+                    <source src="https://player.vimeo.com/external/191711933.hd.mp4?s=b6ae07dd93155a0fa59de263d81e93971d4ce9c1&profile_id=174" type="video/mp4">
+                </video>
+                <div class="white-background large-padding" style="padding-top:100px; padding-bottom:100px;">
 					<div class="flex">
 						<div class="small-12 medium-6 flex small-centered-text">
-							<div class="centered-container">
-								<h4 class="no-margin">What packages are arriving tomorrow?</h4>
+							<div class="centered-container large-padding">
+								<h4 class="no-margin">Want to know where your shipments are?</h4>
 								<h1 class="thin no-margin" style="text-transform: capitalize;">Ask Courier</h1>
-								<div class="button auto-width primary-background white large-margin-bottom">Say Hi</div>
+								<h3>Tracking your packages just got easier. Courier intelligently scans your email for tracking numbers to save you from the hassle of searching your inbox. When you want to know more about your upcoming deliveries, all you have to do is ask.  
+</h3>
 							</div>
 						</div>
 						<div class="small-12 medium-6 centered">
@@ -157,21 +159,67 @@
 						</div>
 					</div>
 				</div>
+				<div class="secondary-background small-padding" style="position:relative; overflow:hidden;">
+					<div class="flex">
+						<div class="small-12 medium-6 centered">
+							<img class="three-quarter-width" src="assets/img/packages.png" />
+						</div>
+						<div class="small-12 medium-6 flex small-centered-text">
+							<div class="centered-container">
+								<h4 class="white no-margin">What packages are arriving tomorrow?</h4>
+								<h1 class="thin no-margin white" style="text-transform: capitalize; line-height: 1;">Courier is your nimble package tracker offering features to:</h1>
+								<h3>
+                                <ul>
+<li>Alert you when a package is delivered</li>
+<li>Share updates about where your package is in transit</li>
+<li>Find receipts from previous packages delivered</li>
+</ul>
+</h3>
+							</div>
+						</div>
+					</div>
+					<img class="mini-courier" src="assets/img/courier.png" />
+				</div>
 				<div class="messenger-background" style="padding-top:100px; padding-bottom:100px;">
 					<div class="max-width-container centered" style="max-width:800px;">
 						<img class="icon-200" src="assets/img/courier-icon.png" />
-						<h1 class="white no-margin" style="text-transform:capitalize !important;">Hello Courier</h1>
+						<h1 class="white no-margin" style="text-transform:capitalize !important;">Keep up with Courier</h1>
 						<p class="white">Now Available on Facebook Messenger</p>
 						<div class="large-padding">
-							<div class="button white auto-width" style="border:solid white 2px; max-width:200px;">Get Started</div>
+							<div class="fb-messengermessageus" 
+                              messenger_app_id="1729263877318547" 
+                              page_id="AskCourierBot"
+                              color="white"
+                              size="standard" >
+                            </div>    
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="white-background small-padding centered"><p class="grey subheading">courier is a bad ass <a href="http://easilydomail.com">EasilyDo</a> Experiment</p></div>
+		<div class="white-background small-padding centered"><p class="grey subheading">courier is a bad ass <a href="http://easilydomail.com">EasilyDo</a> Experiment <br /> Want to be the first to know more about Courier updates? Join our <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScT6b827M3fZKbPdYm2iOSWU-vZuJY5MmFCck-8JC4gJM4KoQ/viewform?c=0&w=1">Beta group</a> for early access to future developments. 
+</p></div>
 		<script src="https://assets.easilydo.com/js/rad.js"></script>
 		<script src="https://assets.easilydo.com/js/svg-injector.js"></script>
 		<script src="js/main.js"></script>
+        <script>
+			window.fbAsyncInit = function() {
+			  FB.init({
+				appId: "APP_ID",
+				xfbml: true,
+				version: "v2.6"
+			  });
+		
+			};
+		
+			(function(d, s, id){
+			   var js, fjs = d.getElementsByTagName(s)[0];
+			   if (d.getElementById(id)) { return; }
+			   js = d.createElement(s); js.id = id;
+			   js.src = "//connect.facebook.net/en_US/sdk.js";
+			   fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+  		</script>
+
 	</body>
 </html>
