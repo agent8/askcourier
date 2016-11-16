@@ -87,6 +87,7 @@
 			    bottom: -50px;
 			    right: 20px;
 			    width: 200px;
+				display:none;
 			 }
 			 .primary-background{
 			 	background-color: #2998ff;
@@ -105,6 +106,7 @@
 				line-height:40px;
 				
 			}
+			
 			 @media only screen and (max-width: 800px) {
 				video{
 					display:none;
@@ -122,6 +124,14 @@
 			    	text-align: center;
 			    	margin-bottom: 100px;
 			    }
+				.small-left{
+					text-align:left;
+				}
+			}
+			 @media only screen and (min-width: 2000px) {
+				.mini-courier{
+					display:block;
+				}
 			}
 		</style>
 	</head>
@@ -159,7 +169,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="secondary-background small-padding" style="position:relative; overflow:hidden;">
+				<div class="secondary-background large-padding" style="position:relative; overflow:hidden;">
 					<div class="flex">
 						<div class="small-12 medium-6 centered">
 							<img class="three-quarter-width" src="assets/img/packages.png" />
@@ -169,7 +179,7 @@
 								<h4 class="white no-margin">What packages are arriving tomorrow?</h4>
 								<h1 class="thin no-margin white" style="text-transform: capitalize; line-height: 1;">Courier is your nimble package tracker offering features to:</h1>
 								<h3>
-                                    <ul>
+                                    <ul class="small-left">
                                         <li>Alert you when a package is delivered</li>
                                         <li>Share updates about where your package is in transit</li>
                                         <li>Find receipts from previous packages delivered</li>
@@ -195,6 +205,16 @@
 						</div>
 					</div>
 				</div>
+                <div class="large-padding white-background small-centered">
+                	<div class="flex">
+                    	<div class="small-12 medium-10">
+                        	<h2 class="dark-grey thin subheading">Have questions or need help?</h2>
+                        </div>
+                        <div class="small-12 medium-2">
+                        	<a href="http://support.askcourier.com" target="_blank" class="button primary-background white" style="color:#fff !important;">Visit Community</a>
+                        </div>
+                    </div>
+                </div>
 			</div>
 		</div>
 		<div class="white-background small-padding centered"><p class="grey subheading">courier is a bad ass <a href="http://easilydomail.com">EasilyDo</a> Experiment <br /> Want to be the first to know more about Courier updates? Join our <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScT6b827M3fZKbPdYm2iOSWU-vZuJY5MmFCck-8JC4gJM4KoQ/viewform?c=0&w=1">Beta group</a> for early access to future developments. 
